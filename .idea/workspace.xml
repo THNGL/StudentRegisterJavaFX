@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="564582be-6aa1-41c5-97d1-b9379038a664" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/studentDB.fxml" afterDir="false" />
+    <list default="true" id="564582be-6aa1-41c5-97d1-b9379038a664" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/GreetingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentPrinterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/Registered_Students.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/studentPrinter.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/iav/studentdbjavafx/StudentDbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/studentDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx/studentDB.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,24 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tobiashengelbrock/Desktop/IntelliJBasics/StudentDBJavaFX/src/main/resources/de/iav/studentdbjavafx&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/tobiashengelbrock/Desktop/IntelliJBasics/StudentDBJavaFX/src/main/resources/de/iav/studentdbjavafx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/de/iav/studentdbjavafx" />
     </key>
   </component>
@@ -74,12 +72,24 @@
       <option name="presentableId" value="Default" />
       <updated>1687964384236</updated>
       <workItem from="1687964385844" duration="4073000" />
-      <workItem from="1688022402373" duration="8075000" />
+      <workItem from="1688022402373" duration="17663000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1688111591298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688111591298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

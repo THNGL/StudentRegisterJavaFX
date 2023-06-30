@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView layoutX="50.0" layoutY="150.0" prefHeight="250.0" prefWidth="400.0" />
+      <Button fx:id="PB_BackToRegistration" layoutX="50.0" layoutY="440.0" mnemonicParsing="false" text="Back to Registration" />
+      <Text layoutX="88.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registered Students">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="PB_Delete_Student" layoutX="351.0" layoutY="440.0" mnemonicParsing="false" text="Delete Student" />
+   </children>
+</AnchorPane>
